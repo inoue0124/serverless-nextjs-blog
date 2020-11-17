@@ -1,7 +1,9 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { NextPage } from 'next'
+import styles from '../../styles/Home.module.css'
+import * as React from 'react'
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -63,3 +65,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
