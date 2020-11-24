@@ -28,8 +28,7 @@ jobs:
       - name: Run test
         run: |
           yarn lint
-          yarn storybook
-          yarn test
+          yarn jest src/__tests__/.*/*.test.tsx?$
 
       - name: Deploy to Lambda
         run: |
