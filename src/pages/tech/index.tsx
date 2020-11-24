@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
 import * as React from 'react'
-import Layout from '../../component/layout'
+import Layout from '../../component/Layout'
 
 const Tech: NextPage = () => {
   return (
