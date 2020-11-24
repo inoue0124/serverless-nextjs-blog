@@ -1,2 +1,7 @@
 myNextApplication:
   component: "@sls-next/serverless-component@1.18.0"
+  inputs:
+    bucketName: "serverless-next-395642432527"
+    name: "serverless-next-blog"
+    cloudfront:
+      distributionId: E4RX0Z6SMTANO
